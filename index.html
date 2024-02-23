@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .form-container {
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            border: 2px solid #007bff;
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+
+        .form-container label {
+            color: #007bff;
+        }
+
+        .form-container input[type="text"],
+        .form-container input[type="email"],
+        .form-container input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 20px 0;
+            display: inline-block;
+            border: 1px solid #007bff;
+            box-sizing: border-box;
+            border-radius: 5px;
+            color: #000;
+        }
+
+        .form-container button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <title>Webinar Registration</title>
+</head>
+
+<body>
+
+    <div class="container form-container">
+        <h2 class="text-center">Free Webinar Registration</h2>
+        <form id="webinarForm" action="https://formbold.com/s/3Lr8x" method="POST">
+            <!-- Personal Information -->
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" class="form-control" id="fullName" name="fullName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" class="form-control" id="phone" name="phone" required>
+            </div>
+
+            <!-- Professional Information -->
+            <div class="form-group">
+                <label for="jobTitle">Job Title:</label>
+                <input type="text" class="form-control" id="jobTitle" name="jobTitle" required>
+            </div>
+
+            <div class="form-group">
+                <label for="company">Your Domain:</label>
+                <input type="text" class="form-control" id="company" name="company" required>
+            </div>
+
+            <div class="form-group">
+                <label for="experience">Years of Experience:</label>
+                <input type="text" class="form-control" id="experience" name="experience" required>
+            </div>
+
+            <!-- Topics of Interest -->
+            <div class="form-group">
+                <label>Topics of Interest:</label>
+                <!-- ... (unchanged) ... -->
+            </div>
+
+            <!-- Availability -->
+            <div class="form-group">
+                <label for="preferredDate">Preferred Date:</label>
+                <input type="text" class="form-control" id="preferredDate" name="preferredDate">
+            </div>
+
+            <div class="form-group">
+                <label for="preferredTime">Preferred Time:</label>
+                <input type="text" class="form-control" id="preferredTime" name="preferredTime">
+            </div>
+
+            <!-- Additional Comments -->
+            <div class="form-group">
+                <label for="comments">Additional Comments:</label>
+                <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" onclick="cdf()">Submit</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function cdf(){
+            window.open("https://meet.google.com/xwh-wqcs-uhp);
+        }
+    </script>
+</body>
+
+</html
